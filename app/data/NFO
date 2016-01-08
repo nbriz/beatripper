@@ -1,0 +1,5 @@
+at the moment i'm reading/writing to a json file ( need to integrate a "proper database"), so for now you need to create a data.json file in this folder with the following:
+
+{
+	"rythms" : []
+}

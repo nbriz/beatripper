@@ -1,0 +1,6 @@
+app/BeatRipper.sublime-workspace
+app/data/data.json
+app/data/data-backup.json
+app/audio
+app/node_modules
+tools/node_modules

@@ -1,0 +1,117 @@
+body {
+	height:100vh; width:100vw;
+	margin:0; padding:0;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	background: #ffffff;            
+	background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #d5d5d5 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(100%,#d5d5d5));
+	background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%,#d5d5d5 100%);
+	background: -o-radial-gradient(center, ellipse cover, #ffffff 0%,#d5d5d5 100%);
+	background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%,#d5d5d5 100%);
+	background: radial-gradient(ellipse at center, #ffffff 0%,#d5d5d5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d5d5d5',GradientType=1 );
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.splashImg {
+	position: absolute;
+	z-index: -1;
+	bottom: 30px;
+	left: 30px;
+}
+
+.splashTitle {
+	position: absolute;
+	font-size: 118px;
+	font-style: italic;
+	font-weight: bold;
+	font-family: sans-serif;
+	bottom: 150px;
+	left: 250px;
+	color: #e40477;
+}
+
+.nav {
+	border: 1px solid #e40477;
+	font-size: 34px;
+	padding: 10px;
+	font-family: sans-serif;
+	font-style: italic;
+	color: #e40477;
+	margin: 0 25px;
+	position: relative;
+	height: 40px;
+}
+
+
+.btn {
+	border: 1px solid rgb(228, 4, 119);
+	padding: 10px;
+	border-radius: 5px;
+	background: #fff;
+	cursor: pointer;
+}
+	.btn:hover{
+		background:#e40477;
+		color:#fff;
+		cursor: pointer;
+	}
+
+	.center {
+		display: block;
+		width:320px;
+		font-size: 16px;
+		margin: 1% auto;
+	}
+
+.meta {
+	border: 1px solid #e40477;
+	font-size: 16px;
+	padding: 10px;
+	font-family: sans-serif;
+	color: #e40477;
+	margin: 25px;
+	position: relative;
+}
+	.lbl {
+		text-transform: uppercase;
+		color: #440124;
+	}
+
+
+.nfo {
+	font-size: 16px;
+	padding: 10px;
+	font-family: sans-serif;
+	color: #e40477;
+	margin: 25px;
+}
+
+/*classes for model*/
+.wrap{
+	position: absolute;
+	top:0px; left:0px;
+	z-index: 10;
+	background-color: rgba(0,0,0,0.5);
+	width: 100%; height: 100%;
+}
+
+.container {
+	display: inline-block;
+	height: 60px;
+	padding:20px;
+	background-color: #ececec;
+	border: 1px solid #e40477;
+	font-family: sans-serif;
+	color:#e40477;
+	font-size: 16px;
+	position: relative;
+}
+

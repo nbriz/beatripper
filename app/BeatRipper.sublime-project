@@ -1,0 +1,26 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/nbriz/Desktop/BeatRipper"
+		}
+	],
+	"settings":
+	{
+		"tab_size": 4
+	},
+	"build_systems":
+	[
+		{
+			"name": "Branger_Briz",
+			"cmd": ["../tools/node_modules/nw/bin/nw"],
+				"variants":
+				[
+					{
+						"name": "Run",
+						"cmd":["bash","../tools/build.sh"]
+					}
+				]
+		}
+	]
+}
